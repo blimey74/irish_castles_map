@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.18.2/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+    <script src="http://openlayers.org/en/v3.18.2/build/ol.js" type="text/javascript"></script>
+    <title>My Castles</title>
+  </head>
+  <body>
+    <h2>My Castles</h2>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+        
+    var vector = new ol.layer.Vector({
+        source: new ol.source.Vector({
+          url: './kml/castles.kml',
+          format: new ol.format.KML()
+        })
+      });    
+        
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }), vector
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-6.89, 52.34]),
+          zoom: 11
+        })
+      });
+    </script>
+  </body>
+</html>

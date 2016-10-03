@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.opengis.net/kml/2.2 ">
+  <Folder>
+      <name>Castles</name>
+      <description>Castles of Kilkenny, Waterford and Wexford</description>
+      <Folder>
+          <name>Castle</name>
+          <Style id="style-Castle">
+              <IconStyle>
+                  <scale>0.2</scale>
+                  <Icon>
+                      <href>/icons/noun_12390-1.png</href>
+                  </Icon>
+              </IconStyle>
+          </Style>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Terrerath</name>
+              <description>Attached to the ground. Intelligently places itself
+                  at the height of the underlying terrain.
+              </description>
+              <Point>
+                  <coordinates>-6.891404, 52.3402921,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Mountgarrett</name>
+              <Point>
+                  <coordinates>-6.9352155, 52.4120324,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Annaghs</name>
+              <Point>
+                  <coordinates>-6.96738, 52.37419,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Gorteens</name>
+              <Point>
+                  <coordinates>-7.044855, 52.270430,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Kilmurry</name>
+              <Point>
+                  <coordinates>-7.0729986, 52.2745345,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Corluddy</name>
+              <Point>
+                  <coordinates>-7.206388, 52.265167,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Grannagh</name>
+              <Point>
+                  <coordinates>-7.160362, 52.281021,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Rocketts Castle</name>
+              <Point>
+                  <coordinates>-7.297709, 52.300019,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Tybroughney</name>
+              <Point>
+                  <coordinates>-7.354978, 52.344875,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Killaghy</name>
+              <Point>
+                  <coordinates>-7.5055286, 52.511192,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Ballinlaw</name>
+              <Point>
+                  <coordinates>-7.019621, 52.301048,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Little Island</name>
+              <Point>
+                  <coordinates>-7.059378, 52.253425,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Ballyhack</name>
+              <Point>
+                  <coordinates>-6.967, 52.244,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Reginald's Tower</name>
+              <Point>
+                  <coordinates>-7.105417, 52.260417,0</coordinates>
+              </Point>
+          </Placemark>
+      </Folder>
+  </Folder>
+</kml>
