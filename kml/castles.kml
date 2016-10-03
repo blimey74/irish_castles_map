@@ -116,5 +116,30 @@
               </Point>
           </Placemark>
       </Folder>
+	  <Folder>
+		  <name>Battle</name>
+          <Style id="style-Battle">
+              <IconStyle>
+                  <scale>0.2</scale>
+                  <Icon>
+                      <href>/icons/32px-battle.png</href>
+                  </Icon>
+              </IconStyle>
+          </Style>
+          <Placemark>
+              <styleUrl>#style-Battle</styleUrl>
+              <name>Battle of Piltown 1462</name>
+              <Point>
+                  <coordinates>-7.333333, 52.35,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+              <styleUrl>#style-Battle</styleUrl>
+              <name>Battle of New Ross 1643</name>
+              <Point>
+                  <coordinates>-6.83611, 52.43556,0</coordinates>
+              </Point>
+          </Placemark>
+	  </Folder>
   </Folder>
 </kml>
