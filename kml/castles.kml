@@ -38,6 +38,20 @@
                   <coordinates>-6.96738, 52.37419,0</coordinates>
               </Point>
           </Placemark>
+		  <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Dunkitt</name>
+              <Point>
+                  <coordinates>-7.1454679,52.2948105,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Carrigcloney</name>
+              <Point>
+                  <coordinates>-7.0048109,52.3440907,0</coordinates>
+              </Point>
+          </Placemark>
           <Placemark>
 			  <styleUrl>#style-Castle</styleUrl>
               <name>Gorteens</name>
@@ -113,6 +127,13 @@
               <name>Reginald's Tower</name>
               <Point>
                   <coordinates>-7.105417, 52.260417,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Currahill</name>
+              <Point>
+                  <coordinates>-7.3538665,52.4617999,0</coordinates>
               </Point>
           </Placemark>
       </Folder>
