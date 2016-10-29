@@ -38,13 +38,6 @@
                   <coordinates>-6.96738, 52.37419,0</coordinates>
               </Point>
           </Placemark>
-		  <Placemark>
-			  <styleUrl>#style-Castle</styleUrl>
-              <name>Dunkitt</name>
-              <Point>
-                  <coordinates>-7.1454679,52.2948105,0</coordinates>
-              </Point>
-          </Placemark>
           <Placemark>
 			  <styleUrl>#style-Castle</styleUrl>
               <name>Carrigcloney</name>
@@ -71,6 +64,13 @@
               <name>Corluddy</name>
               <Point>
                   <coordinates>-7.206388, 52.265167,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Dangan</name>
+              <Point>
+                  <coordinates>-7.163133,52.325754,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
@@ -133,7 +133,14 @@
 			  <styleUrl>#style-Castle</styleUrl>
               <name>Currahill</name>
               <Point>
-                  <coordinates>-7.3538665,52.4617999,0</coordinates>
+                  <coordinates>-7.347033,52.467078,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Dunkitt</name>
+              <Point>
+                  <coordinates>-7.148686,52.291061,0</coordinates>
               </Point>
           </Placemark>
       </Folder>
