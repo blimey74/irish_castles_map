@@ -163,6 +163,13 @@
           </Placemark>
 		  <Placemark>
               <styleUrl>#style-Battle</styleUrl>
+              <name>Battle of Tiscoffin 1362</name>
+              <Point>
+                  <coordinates>-7.130461,52.654227,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+              <styleUrl>#style-Battle</styleUrl>
               <name>Battle of New Ross 1643</name>
               <Point>
                   <coordinates>-6.83611, 52.43556,0</coordinates>
