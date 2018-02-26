@@ -16,12 +16,22 @@
           </Style>
           <Placemark>
               <styleUrl>#style-Castle</styleUrl>
-              <name>Terrerath</name>
+              <name>Tellarought</name>
               <description>Attached to the ground. Intelligently places itself
                   at the height of the underlying terrain.
               </description>
               <Point>
                   <coordinates>-6.891404, 52.3402921,0</coordinates>
+              </Point>
+          </Placemark>
+		  <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Sigginstown</name>
+              <description>Attached to the ground. Intelligently places itself
+                  at the height of the underlying terrain.
+              </description>
+              <Point>
+                  <coordinates>-6.445331, 52.205208,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
