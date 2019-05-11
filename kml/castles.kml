@@ -3,7 +3,7 @@
      xsi:schemaLocation="http://www.opengis.net/kml/2.2 ">
   <Folder>
       <name>Castles</name>
-      <description>Castles of Kilkenny, Waterford and Wexford</description>
+      <description>Castles of Kilkenny, Tipperary, Waterford and Wexford</description>
       <Folder>
           <name>Castle</name>
           <Style id="style-Castle">
@@ -104,6 +104,13 @@
                   <coordinates>-7.354978, 52.344875,0</coordinates>
               </Point>
           </Placemark>
+		  <Placemark>
+			  <styleUrl>#style-Castle</styleUrl>
+              <name>Ormonde</name>
+              <Point>
+                  <coordinates>-7.4230546,52.34712,0</coordinates>
+              </Point>
+          </Placemark>
           <Placemark>
 			  <styleUrl>#style-Castle</styleUrl>
               <name>Killaghy</name>
@@ -183,6 +190,20 @@
               <name>Battle of New Ross 1643</name>
               <Point>
                   <coordinates>-6.83611, 52.43556,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Kilcash</name>
+              <Point>
+                  <coordinates>-7.521389, 52.397778,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Gurteen de le Poer</name>
+              <Point>
+                  <coordinates>-7.5929, 52.3605,0</coordinates>
               </Point>
           </Placemark>
 	  </Folder>
