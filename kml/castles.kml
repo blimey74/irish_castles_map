@@ -8,7 +8,7 @@
           <name>Castle</name>
           <Style id="style-Castle">
               <IconStyle>
-                  <scale>0.2</scale>
+                  <scale>0.3</scale>
                   <Icon>
                       <href>/icons/noun_12390-1.png</href>
                   </Icon>
@@ -160,12 +160,33 @@
                   <coordinates>-7.148686,52.291061,0</coordinates>
               </Point>
           </Placemark>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Kilcash</name>
+              <Point>
+                  <coordinates>-7.521389, 52.397778,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Gurteen de le Poer</name>
+              <Point>
+                  <coordinates>-7.5929, 52.3605,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <styleUrl>#style-Castle</styleUrl>
+              <name>Poulakerry</name>
+              <Point>
+                  <coordinates>-7.562420, 52.361762,0</coordinates>
+              </Point>
+          </Placemark>
       </Folder>
 	  <Folder>
 		  <name>Battle</name>
           <Style id="style-Battle">
               <IconStyle>
-                  <scale>0.2</scale>
+                  <scale>0.4</scale>
                   <Icon>
                       <href>/icons/32px-battle.png</href>
                   </Icon>
@@ -190,20 +211,6 @@
               <name>Battle of New Ross 1643</name>
               <Point>
                   <coordinates>-6.83611, 52.43556,0</coordinates>
-              </Point>
-          </Placemark>
-          <Placemark>
-              <styleUrl>#style-Castle</styleUrl>
-              <name>Kilcash</name>
-              <Point>
-                  <coordinates>-7.521389, 52.397778,0</coordinates>
-              </Point>
-          </Placemark>
-          <Placemark>
-              <styleUrl>#style-Castle</styleUrl>
-              <name>Gurteen de le Poer</name>
-              <Point>
-                  <coordinates>-7.5929, 52.3605,0</coordinates>
               </Point>
           </Placemark>
 	  </Folder>
